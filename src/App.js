@@ -25,8 +25,9 @@ class App extends Component {
                     <a href="tel:1-206-266-1000" className="text-decoration-none text-light d-inline"><small>1.206.266.1000</small></a>
                 </header>
                 <div className="container text-center mt-2 mb-3">
-                    <h1 style={{ fontFamily: "Permanent Marker" }}>JEFF BEZOS
-                        <span style={{ fontFamily: "Londrina Outline", fontSize: 30 }}>CAFE</span>
+                    <h1>
+                        <div class="d-inline-block tilt" style={{ fontFamily: "Permanent Marker" }}>JEFF BEZOS</div>
+                        <div class="d-inline" style={{ fontFamily: "Londrina Outline", fontSize: 30 }}>CAFE</div>
                     </h1>
                     <h6 style={{ fontFamily: "Varela Round" }}>OPEN 24HRS</h6>
                 </div>

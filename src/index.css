@@ -17,8 +17,8 @@ body {
 }
 
 .tilt {
-    -webkit-transform: rotate(-5deg);
-    transform: rotate(-5deg);
+    transform: translateX(10px) rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
 }
 
 code {

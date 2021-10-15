@@ -12,13 +12,13 @@ function MenuTab() {
                 </nav>
                 <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-breakfast" role="tabpanel" aria-labelledby="nav-breakfast-tab">
-                        <Menu mealId={1} />
+                        <Menu mealID={1} />
                     </div>
                     <div className="tab-pane fade" id="nav-lunch" role="tabpanel" aria-labelledby="nav-lunch-tab">
-                        <Menu mealId={2} />
+                        <Menu mealID={3} />
                     </div>
                     <div className="tab-pane fade" id="nav-dinner" role="tabpanel" aria-labelledby="nav-dinner-tab">
-                        <Menu mealId={3} />
+                        <Menu mealID={5} />
                     </div>
                 </div>
             </div>

@@ -15,7 +15,7 @@ class App extends Component {
     render() {
 
         return (
-            <div>
+            <body class="d-flex flex-column h-100">
                 <header className="header bg-dark text-center" style={{ fontFamily: "Varela Round" }}>
                     <a href="https://www.google.com/maps/space/moon/@9.5572997,-19.9874672,546760m/data=!3m1!1e3"
                         className="text-decoration-none text-light d-inline me-2"
@@ -24,7 +24,7 @@ class App extends Component {
                     >1000 COPERNICUS CRATER, MOON</a>
                     <a href="tel:1-206-266-1000" className="text-decoration-none text-light d-inline"><small>1.206.266.1000</small></a>
                 </header>
-                <div className="container text-center mt-2 mb-3">
+                <div className="container text-center mt-5 mb-5">
                     <h1>
                         <div class="d-inline-block tilt" style={{ fontFamily: "Permanent Marker" }}>JEFF BEZOS</div>
                         <div class="d-inline" style={{ fontFamily: "Londrina Outline", fontSize: 30 }}>CAFE</div>
@@ -32,7 +32,8 @@ class App extends Component {
                     <h6 style={{ fontFamily: "Varela Round" }}>OPEN 24HRS</h6>
                 </div>
                 <MenuTab />
-            </div>
+                <footer className="footer py-3 bg-dark"></footer>
+            </body>
         );
     }
 }

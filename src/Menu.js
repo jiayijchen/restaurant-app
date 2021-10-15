@@ -42,7 +42,7 @@ class Menu extends Component {
                     this.state.APIData.map((menuItem) => {
                         return (
                             <div className="col-6 mb-3" key={menuItem.id}>
-                                <div className="card border-dark h-100">
+                                <div className="card h-100">
                                     <div className="row card-body text-dark">
                                         <h5 className="col-7 card-title">{menuItem.name.toLowerCase()}</h5>
                                         <h5 className="col-5 card-title text-end text-success">${menuItem.id % 4.5 + 2}M <span className="h6">USD</span></h5>
